@@ -20,7 +20,7 @@ end
 function frame:OnEvent(ev, _, event, _, _, _, _, _, _, target, _, _, spellID, _, _, _, count)
 --                         1    2    3  4  5  6  7  8    9    10 11    12    13 14 15   16
 	if ev == "COMBAT_LOG_EVENT_UNFILTERED" then
-		if spellID ~= 31803 then return end
+		if spellID ~= 133798 then return end
 		
 		local player = UnitName("player")
 		if player ~= target then return end
