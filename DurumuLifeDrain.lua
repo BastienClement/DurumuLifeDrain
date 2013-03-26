@@ -4,7 +4,7 @@ local frame = CreateFrame("Frame",  nil, UIParent)
 
 local tracking = false
 local function update_tracking()
-	local should_track = (GetMapInfo() == "ValeofEternalBlossoms")
+	local should_track = (GetMapInfo() == "ThunderKingRaid")
 	if should_track ~= tracking then
 		if tracking then
 			print "untraking"
