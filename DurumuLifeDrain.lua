@@ -7,10 +7,8 @@ local function update_tracking()
 	local should_track = (GetMapInfo() == "ThunderKingRaid")
 	if should_track ~= tracking then
 		if tracking then
-			print "untraking"
 			frame:UnregisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
 		else
-			print "traking"
 			frame:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
 		end
 		tracking = should_track
