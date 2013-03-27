@@ -1,5 +1,5 @@
 ## Interface: 50200
 ## Title: Durumu LifeDrain
-## Notes: Life drain on me
+## Notes: Yells each time you gain a stack of Life Drain on the Durumu encounter.
 
 DurumuLifeDrain.lua
