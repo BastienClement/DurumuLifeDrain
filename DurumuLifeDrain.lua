@@ -32,7 +32,7 @@ function frame:OnEvent(ev, _, event, _, _, _, _, _, _, target, _, _, spellID, _,
 			return
 		end
 		
-		SendChatMessage("Life drain on " .. player .. "! " .. stacks, "YELL")
+		SendChatMessage(stacks, "YELL")
 	else
 		-- ZONE_CHANGED / ZONE_CHANGED_INDOORS / ZONE_CHANGED_NEW_AREA
 		update_tracking()
