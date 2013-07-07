@@ -1,4 +1,4 @@
-## Interface: 50300
+## Interface: 50400
 ## Title: Durumu LifeDrain
 ## Notes: Yells each time you gain a stack of Life Drain on the Durumu encounter.
 
